@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Online course selling</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Font-Awesome CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div id="top-bar">
+
+    <div class="logo">
+      <h4><span>Online</span>Course</h4>
+      <h6><span>Selling-store</span></h6>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="./index.html">HOME</a></li>
+      <li><a href="#categories">CATEGORIES</a></li>
+      <li><a href="#courses">COURSES</a></li>
+      <li><a href="#aboutus">ABOUT US</a></li>
+    </ul>
+
+    <div class="icons">
+      <i class="fa fa-search"></i>
+      <div class="cart" id="cartIcon">
+        <a href="./checkout.html">
+          <i class="fa fa-shopping-cart">
+            <span id="cart-count"></span>
+          </i>
+        </a>
+      </div>
+      <i class="fa fa-user-circle-o"></i>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </div>
+
+<section id=heading">
+<br>
+<div id="slider">  
+<div class="slides">  
+  <img src="img/slide1.webp" width="100%" />
+ </div>
+  
+  <div class="slides">  
+  <img src="img/Java full stack.png" width="100%" />
+</div>
+  
+  <div class="slides">  
+  <img src="img/slide2.webp" width="100%" />
+</div> 
+  
+   <div class="slides">  
+  <img src="img/slide4.png" width="100%" />
+</div> 
+
+<div class="slides">  
+  <img src="img/slide5.png" width="100%" />
+</div> 
+  
+
+  
+  <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+ </div>
+
+  </section>
+
+
+  <section id="categories">
+    <div class="center-text">
+      <span><h2 style="text-align: center;">CATEGORIES</h2><span>
+      <h4 style="text-align: center;"><u> Trending Courses </u></h4>
+  </div>
+  <div class="categories-content">
+      <div class="box">
+          <img   src="img/Angular.jpg">
+          <h3>Anugular Development</h3>
+          <p>5 Courses</p>
+          <a href="angular.html"><button type="button">Book</button></a>
+      </div>
+
+          <div class="box">
+              <img  src="img/nodejs.png">
+              <h3>Node JS</h3>
+              <p>5 Courses</p>
+              <a href="nodejs.html"><button type="button">Book</button></a>
+
+          </div>
+          
+              <div class="box">
+                  <img   src="img/react.js-img.png">
+                  <h3>React JS</h3>
+                  <p>5 Courses</p>
+                  <a href="react.html"><button type="button">Book</button></a>
+              </div>
+              
+                  <div class="box">
+                      <img   src="img/Datascience.jpg">
+                      <h3>Data Science</h3>
+                      <p>1 Course</p>
+                      <a href="datascience.html"><button type="button">Book</button></a>
+                  </div>
+                  </div>
+  </section>
+
+  <section id="categories">
+    <div class="center-text">
+      
+  </div>
+  <div class="categories-content">
+      <div class="box">
+          <img   src="img/Java full stack-1.png">
+          <h3>Java Full Stack</h3>
+          <p>2 Courses</p>
+          <a href="java.html"><button type="button">Book</button></a>
+
+      </div>
+
+          <div class="box">
+              <img  src="img/aws.webp">
+              <h3>AWS</h3>
+              <p>5 Courses</p>
+              <a href="aws.html"><button type="button">Book</button></a>
+
+          </div>
+          
+              <div class="box">
+                  <img   src="img/Python.png">
+                  <h3>Python</h3>
+                  <p>5 Courses</p>
+                  <a href="python.html"><button type="button">Book</button></a>
+
+              </div>
+              
+                  <div class="box">
+                      <img   src="img/Chatgpt.webp">
+                      <h3>ChatGPT(AI)</h3>
+                      <p>5 Courses</p>
+                  <a href="Chatgpt.html"><button type="button">Book</button></a>
+  </div>  </div>
+              <div class="main-btn">
+                <span>-----------------------------------------------------------</span>
+              <a href="#" class="btn">More!</a><span>-----------------------------------------------------------</span>
+              </div>
+  </section>
+  
+
+  <section class="courses" id="courses">
+    <div class="center-text">
+        <h5>COURSES</h5>
+        <h2>Explore Popular Courses</h2>
+    </div>
+  <div class="courses-content">
+    <div class="row">   
+        <img src="img/aws.webp">
+        <div class="courses-text">
+            <h3>Free </h3><span style="text-decoration: line-through;">25000rs</span>
+            <h3>The Complete AWS Course for 2024</h3>
+            <h6>05 Hours 15 Minutes</h6>
+            <div class="rating">
+                <div class="star">
+                   <a href="#"><i class='bx bxs-star'></i></a>
+                   <a href=""><i class='bx bxs-star'></i></a>
+                   <a href=""><i class='bx bxs-star'></i></a>
+                   <a href=""><i class='bx bxs-star'></i></a>
+                   <a href=""><i class='bx bxs-star'></i></a>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section><div class="row">
+            <img src="img/Java-Full-Stack2.png">
+            <div class="courses-text">
+                <h5>35000</h5>
+                <h3>The Complete Full Stack Java Development Course 2024</h3>
+                <h6> 100Hours 00 Minutes</h6>
+                <div class="rating">
+                    <div class="star">
+                       <a href="#"><i class='bx bxs-star'></i></a>
+                       <a href=""><i class='bx bxs-star'></i></a>
+                       <a href=""><i class='bx bxs-star'></i></a>
+                       <a href=""><i class='bx bxs-star'></i></a>
+                       <a href=""><i class='bx bxs-star'></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+               </div>
+          </section>
+
+          <section><div class="row">
+            <img src="img/slide4.png">
+            <div class="courses-text">
+                <h5>35000</h5>
+                <h3>The Complete Python Course on Live now</h3>
+                <h6> 100Hours 00 Minutes</h6>
+                <div class="rating">
+                    <div class="star">
+                       <a href="#"><i class='bx bxs-star'></i></a>
+                       <a href=""><i class='bx bxs-star'></i></a>
+                       <a href=""><i class='bx bxs-star'></i></a>
+                       <a href=""><i class='bx bxs-star'></i></a>
+                       <a href=""><i class='bx bxs-star'></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+               </div>
+          </section>
+
+  <footer id="aboutus">
+    <h1 style="color: wheat;" ><u>About-us</u></h1>
+    <ul class="Courses">
+      <li>
+        <h3>Courses</h3>
+      </li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">Python</a></li>
+      <li><a href="#">PHP</a></li>
+      <li><a href="#">AWS</a></li>
+      <li><a href="#">Java full stack</a></li>
+      <li><a href="#">MERN full stack</a></li>
+    </ul>
+
+    <ul class="Courses">
+      <li>
+        <h3>Popular</h3>
+      </li>
+      <li><a href="#">Java full stack</a></li>
+      <li><a href="#">Mern full stack</a></li>
+      <li><a href="#">Data science</a></li>
+      <li><a href="#">AI & ML</a></li>
+      <li><a href="#">VLSI</a></li>
+      <li><a href="#">ETC....</a></li>
+    </ul>
+    
+    <ul class="patners">
+      <li>
+        <h3>Certifications</h3>
+      </li>
+      <li><a href="#">Azure</a></li>
+      <li><a href="#">Oracle-cloud</a></li>
+      <li><a href="#">Devops</a></li>
+      <li><a href="#">Java Developer</a></li>
+      <li><a href="#">Data Science</a></li>
+    </ul>
+
+    <ul class="helpful-links">
+      <li>
+        <h3>Helpful Links</h3>
+      </li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <ul class="address">
+      <h3>Address</h3>
+      <p><a href="#">Building</a></p>
+      <p><a href="#">Main road</a></p>
+      <p><a href="#">Rajahmundry</a></p>
+  </footer>
+
+  <footer class="last"><img src="learning.png" alt="" class="image">Copyrights belongs to @Nagasai 2024</footer>
+
+
+ 
+  <script src="./index.js"></script>
+</body>
+
+</html>
